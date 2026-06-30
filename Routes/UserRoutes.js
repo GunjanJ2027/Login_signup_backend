@@ -2,7 +2,7 @@
 
 const route = require("express").Router()
 const {login,register,home,dashboard} = require("../Controller/Api")
-const auth = require('../Middleware/auth')
+const auth = require('../MiddleWare/auth')
 
 
 route.post("/register",register);
